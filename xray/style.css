@@ -18,7 +18,7 @@ h3 {
 }
 
 .cursor {
-	background-image: url('/cursor.png');
+	background-image: url('./cursor.png');
 	background-size: cover;
 	height: 6.25rem;
 	mix-blend-mode: difference;
