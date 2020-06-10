@@ -1,0 +1,31 @@
+html {
+	align-items: center;
+	background: #000;
+	cursor: none;
+	display: flex;
+	height: 100%;
+	justify-content: center;
+}
+
+h3 {
+	color: #fff;
+	filter: blur(calc(0.03em + 0.14px)) contrast(456.20625%);
+	font-size: 3em;
+	font-weight: 700;
+	letter-spacing: -1.3px;
+	margin-top: -2em;
+	text-shadow: rgba(160, 19, 12, 0.75) calc(0.022em + 0.24px) calc(0.016em + 1.25px) calc(0.022em + 3px), rgba(36, 198, 192, 0.75) -1px calc(-0.03em + -1.7px) calc(0.0025em + 6.1px), rgba(159, 143, 25, 0.75) calc(0.04em + 1.03px) calc(0.024em + 1.05px) calc(0.05em + 1.01px);
+}
+
+.cursor {
+	background-image: url('/cursor.png');
+	background-size: cover;
+	height: 6.25rem;
+	mix-blend-mode: difference;
+	pointer-events: none;
+	position: fixed;
+	transform: translate(-50%, -50%);
+	user-select: none;
+	width: 6.25rem;
+	z-index: 9999;
+}
