@@ -12,9 +12,12 @@
 </body>
 <script>
     const cursor = document.querySelector('.cursor');
-    window.addEventListener('mousemove', (e) => {
+    const eventCallback = (e) => {
         cursor.style.left = `${e.clientX}px`;
         cursor.style.top = `${e.clientY}px`;
-    });
+    };
+    window.addEventListener('mousemove', eventCallback);
+    window.addEventListener('touchmove', eventCallback);
+
 </script>
 </html>
